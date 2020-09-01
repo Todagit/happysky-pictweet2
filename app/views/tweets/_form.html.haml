@@ -1,0 +1,6 @@
+= form.label :image, class: 'select-image' do
+  Select Photo
+  = form.file_field :image, class: 'select-file'
+= form.text_area :title, placeholder: "title" , rows: "1"
+= form.text_area :text, placeholder: "description" , rows: "10"
+= form.submit "SEND"
