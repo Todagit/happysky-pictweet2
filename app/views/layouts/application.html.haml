@@ -2,7 +2,7 @@
 %html
   %head
     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
-    %title Picstagram
+    %title HAPPYSKY
     = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
     = javascript_include_tag 'application', 'data-turbolinks-track' => true
     = csrf_meta_tags
@@ -23,7 +23,7 @@
     %header.header
       .header__bar.row
         %h1.grid-6
-          %a{:href => "/"} Picstagram
+          %a{:href => "/"} HAPPYSKY
         - if user_signed_in?
           .user_nav.grid-6
             %span
@@ -40,4 +40,4 @@
     = yield
     %footer
       %p
-        Copyright Picstagram 2020.
+        Copyright HAPPYSKY 2020.
