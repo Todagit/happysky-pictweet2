@@ -113,6 +113,9 @@ GEM
     ffi (1.13.1)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
+    gretel (4.1.0)
+      actionview (>= 5.1, < 7.0)
+      railties (>= 5.1, < 7.0)
     haml (5.1.2)
       temple (>= 0.8.0)
       tilt
@@ -302,6 +305,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   compass-rails (= 3.1.0)
   devise
+  gretel
   haml-rails
   jbuilder (~> 2.5)
   kaminari
