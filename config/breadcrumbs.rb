@@ -3,6 +3,10 @@ crumb :root do
   link "トップページ", root_path
 end
 
+crumb :mypage do
+  link "マイページ", user_path
+  parent :root
+end
 
 # crumb :projects do
 #   link "Projects", projects_path
