@@ -209,6 +209,9 @@ header.header {
   }
 }
 div.contents.row {
+  // &__mypage {
+  //   margin-top: 100px;
+  // }
   h2 {
     @include boxBase(20px 0, 0);
     font-weight: normal;
