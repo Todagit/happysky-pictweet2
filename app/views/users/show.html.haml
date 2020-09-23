@@ -1,3 +1,5 @@
+.breadcrumb
+  - breadcrumb :mypage
 .contents.row
   %p
     = @nickname
@@ -5,3 +7,4 @@
   - @tweets.each do |tweet|
     = render partial: "tweets/tweet", locals: { tweet: tweet }
   = paginate(@tweets)
+

@@ -37,6 +37,8 @@
           .grid-6
             = link_to "ログイン", new_user_session_path, class: 'post'
             = link_to "新規登録", new_user_registration_path, class: 'post'
+      .header__breadcrumbs
+        = breadcrumbs pretext: "", separator: " &rsaquo; "
     = yield
     %footer
       %p
